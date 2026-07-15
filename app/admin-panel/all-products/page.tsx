@@ -1,4 +1,3 @@
-
 "use client";
 
 /**
@@ -12,6 +11,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import styles from '@/css/AllProduct.module.scss'
 import toast from "react-hot-toast";
 import {
   FiAlertCircle,
@@ -24,7 +24,6 @@ import {
 } from "react-icons/fi";
 import { deleteProduct, subscribeToProducts } from "@/lib/Actions/AllProduct.action";
 import { ProductType } from "@/types/Product";
-import styles from '@/css/AllProduct.module.scss'
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 

@@ -31,10 +31,6 @@ export const loginUser = async (email: string, password: string) => {
 
 
 // reset password
-// export const ResetPassword = async (email: string) => {
-//   await sendPasswordResetEmail(auth, email);
-// };
-
 export const ResetPassword = async (email: string) => {
   try {
     await sendPasswordResetEmail(auth, email);
